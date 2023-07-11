@@ -11,11 +11,11 @@
 * EOL – end of line (\n)
 
 ## Starting grammar
-prod_list –>prod_list production
+* prod_list –>prod_list production
             | production
-production –> NT GOES production_body SEMI EOL
-production_body –> production_body OR rule
+* production –> NT GOES production_body SEMI EOL
+* production_body –> production_body OR rule
                 | rule
-rule            ->NT rule                
+* rule            ->NT rule                
                  | rule
                   | EOL
